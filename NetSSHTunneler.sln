@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{824A0165
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSSHTunneler.App.Tests", "NetSSHTunneler.App.Tests\NetSSHTunneler.App.Tests.csproj", "{2C562AF9-B130-497D-815D-B6102105EB16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSSHTunneler.Utils.Tests", "NetSSHTunneler.Utils.Tests\NetSSHTunneler.Utils.Tests.csproj", "{7C4914E5-9E84-4E93-81ED-3900ED1BB3AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +37,17 @@ Global
 		{2C562AF9-B130-497D-815D-B6102105EB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C562AF9-B130-497D-815D-B6102105EB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C562AF9-B130-497D-815D-B6102105EB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4914E5-9E84-4E93-81ED-3900ED1BB3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4914E5-9E84-4E93-81ED-3900ED1BB3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4914E5-9E84-4E93-81ED-3900ED1BB3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4914E5-9E84-4E93-81ED-3900ED1BB3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2C562AF9-B130-497D-815D-B6102105EB16} = {824A0165-83CC-4000-89CE-8D1834AC1844}
+		{7C4914E5-9E84-4E93-81ED-3900ED1BB3AB} = {824A0165-83CC-4000-89CE-8D1834AC1844}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C183056D-A8ED-4E65-91DB-51C4CA57665C}
